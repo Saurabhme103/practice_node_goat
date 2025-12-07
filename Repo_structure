@@ -1,0 +1,6 @@
+iac-demo/
+ ├─ terraform/
+ │   └─ s3.tf
+ ├─ kubernetes/
+ │   └─ pod.yaml
+ └─ .github/workflows/checkmarx-iac.yml
