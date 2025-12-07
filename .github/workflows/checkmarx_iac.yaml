@@ -2,12 +2,7 @@ name: Checkmarx IaC Scan
 
 on:
   push:
-     branches:
-     -main
-     -release/*
   pull_request:
-    branches:
-    -main
 
 jobs:
   checkmarx-iac:
